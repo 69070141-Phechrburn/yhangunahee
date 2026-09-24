@@ -3,9 +3,7 @@ def main():
     """ticketdickywicky"""
     seat = int(input())
     total_cost = 0
-    while True:
-        if seat <= 0:
-            break
+    while seat > 0:
         age, ticket = map(int, input().split(" "))
         cost = 150
         if 15 <= age <= 22:
